@@ -14,13 +14,13 @@ Welcome to watch, star or fork.
 
 #### 各模型结构如下（详见文末论文链接）
 ###### BiLSTM Attention
-![BiLSTM_Att](./img/BiLSTM_Att.jpeg)
+![image](https://github.com/Tianweidadada/RelationExtract-Pytorch/raw/master/img/BiLSTM_ATT.jpeg)
 
 ###### BiLSTM CNN
-![BiLSTM_Att](./img/BiLSTM_CNN.jpeg)
+![image](https://github.com/Tianweidadada/RelationExtract-Pytorch/raw/master/img/BiLSTM_CNN.jpeg)
 
 ###### CNN
-![BiLSTM_Att](./img/CNN.jpeg)
+![image](https://github.com/Tianweidadada/RelationExtract-Pytorch/raw/master/img/CNN.jpeg)
 ## Requirements
 
 This repo was tested on Python 3.6 + and PyTorch 1.0.0. The requirements are:
