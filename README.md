@@ -14,7 +14,7 @@ Welcome to watch, star or fork.
 
 #### 各模型结构如下（详见文末论文链接）
 ###### BiLSTM Attention
-![image](./img/BiLSTM_Att.jpeg)
+![image](https://github.com/Tianweidadada/RelationExtract-Pytorch/raw/master/img/BiLSTM_ATT.jpeg)
 
 <!-- ###### BiLSTM CNN
 ![image](https://github.com/Tianweidadada/RelationExtract-Pytorch/raw/master/img/BiLSTM_CNN.jpeg)
