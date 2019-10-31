@@ -1,0 +1,24 @@
+{
+    "max_len": 98,
+    "pos_dis_limit": 50,
+
+    "word_emb_dim": 50,
+    "pos_emb_dim": 10,
+    "hidden_dim": 100,
+
+    "filters": [2,3,4,5],
+    "filter_num": 128,
+
+    "optim_method": "adadelta",
+    "learning_rate": 0.001,
+    "weight_decay": 1e-5,
+    "clip_grad": 5,
+
+    "dropout_ratio": 0.5,
+    "batch_size": 10,
+    "epoch_num": 100,
+
+    "min_epoch_num": 20,
+    "patience": 0.02,
+    "patience_num": 10
+}
