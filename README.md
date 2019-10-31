@@ -2,8 +2,8 @@
 
 Pytorch Implementation of Deep Learning Approach for Relation Extraction Challenge([**SemEval-2010 Task #8: Multi-Way Classification of Semantic Relations Between Pairs of Nominals**](https://docs.google.com/document/d/1QO_CnmvNRnYwNWu1-QCAeR5ToQYkXUqFeAJbdEhsq7w/preview))
 
-##关系抽取/分类的PyTorch实现。
-## 本项目介绍了三种模型用于此任务
+## 关系抽取/分类的PyTorch实现。
+### 本项目介绍了三种模型用于此任务
 
 1. BiLSTM + Attention + PF
 2. BiLSTM + RNN + PF
@@ -13,16 +13,14 @@ Pytorch Implementation of Deep Learning Approach for Relation Extraction Challen
 Welcome to watch, star or fork.
 
 #### 各模型结构如下（详见文末论文链接）
+###### BiLSTM Attention
+![BiLSTM_Att](./img/BiLSTM_Att.jpeg)
 
-![Architecture](img/BiLSTM_ATT.jpeg)
+###### BiLSTM CNN
+![BiLSTM_Att](./img/BiLSTM_CNN.jpeg)
 
-![Architecture](img/BiLSTM_CNN.jpeg)
- 
-![Architecture](img/CNN.jpeg)
-
-
-
-
+###### CNN
+![BiLSTM_Att](./img/CNN.jpeg)
 ## Requirements
 
 This repo was tested on Python 3.6 + and PyTorch 1.0.0. The requirements are:
@@ -37,9 +35,9 @@ This repo was tested on Python 3.6 + and PyTorch 1.0.0. The requirements are:
 - Given: a sentence marked with a pair of *nominals*
 - Goal: recognize the semantic relation between these nominals.
 - Example:
-  - "There were apples, <e1>**pears**</e1> and oranges in the <e2>**bowl**</e2>." 
+  - "There were apples, <e1>**pears**</e1> and oranges in the <e2>**bowl**</e2>."
     => *Content-Container(e1,e2)*
-  - “The cup contained <e1>**tea**</e1> from dried <e2>**ginseng**</e2>.” 
+  - “The cup contained <e1>**tea**</e1> from dried <e2>**ginseng**</e2>.”
     => *Entity-Origin(e1,e2)*
 
 ### The Inventory of Semantic Relations
@@ -113,19 +111,19 @@ This repo was tested on Python 3.6 + and PyTorch 1.0.0. The requirements are:
 
 ## Results
 
-BiLSTM + Attention  
+BiLSTM + Attention
 
 | Precision | Recall |  F1   |
 | :-------: | :----: | :---: |
 |   79.13   | 82.29  | 80.68 |
 
-BiLSTM + MaxPooling  
+BiLSTM + MaxPooling
 
 | Precision | Recall |  F1   |
 | :-------: | :----: | :---: |
 |   79.99   | 78.73  | 78.93 |
 
-CNN  
+CNN
 
 | Precision | Recall |  F1   |
 | :-------: | :----: | :---: |
@@ -137,4 +135,3 @@ CNN
 - **Attention-Based Bidirectional Long Short-Term Memory Networks forRelation Classification** (ACL 2016),P Zhou,W Shi. [[paper]](https://www.aclweb.org/anthology/P16-2034/)
 - **Relation Classification via Recurrent Neural Network** ,Dongxu Zhang, Dong Wang. [[paper]](https://arxiv.org/abs/1508.01006)
 - **Relation Extraction: Perspective from Convolutional Neural Networks** (NAACL 2015), TH Nguyen et al. [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf)
-
