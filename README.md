@@ -136,3 +136,4 @@ CNN
 - **Attention-Based Bidirectional Long Short-Term Memory Networks forRelation Classification** (ACL 2016),P Zhou,W Shi. [[paper]](https://www.aclweb.org/anthology/P16-2034/)
 - **Relation Classification via Recurrent Neural Network** ,Dongxu Zhang, Dong Wang. [[paper]](https://arxiv.org/abs/1508.01006)
 - **Relation Extraction: Perspective from Convolutional Neural Networks** (NAACL 2015), TH Nguyen et al. [[paper]](http://www.cs.nyu.edu/~thien/pubs/vector15.pdf)
+- **Relation extract review literature from blog** [[link]](http://shomy.top/2018/02/28/relation-extraction/)
